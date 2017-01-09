@@ -2,4 +2,4 @@
 
 <h2>Takahe Bird Project</h2>
 
-[Style Guide](http://sarahjaneowens.github.io/takahebird/index.html) 
+[Style Guide](http://sarahjaneowens.github.io/ixd302-takahe-bird-project/index.html) 
