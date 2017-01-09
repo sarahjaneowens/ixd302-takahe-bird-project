@@ -1,0 +1,354 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+p, h2, li, h3
+{
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin: auto;
+        font-weight: 600;
+        color:#333;
+        line-height: 1.5em;
+    }
+    
+body {background:white;}
+
+.bg {
+    background-image: url(../images/mainbg2.svg);
+    background-size: cover;
+    background-position: center center;
+    height:1200px;
+    margin-left: -5em;
+}
+
+header {
+    margin-top: -1100px;
+    text-align: center;}
+
+h1 {
+    font-family: 'shadows into light',serif;
+    font-size: 6em;
+    margin-top: -0.8em;
+    color:black;}
+
+.first-title {
+    font-family: 'shadows into light',serif;
+    font-size: 2.2em;
+    color:black;
+    text-align: center;}
+
+.second-title {
+    font-family: 'shadows into light',serif;
+    font-size: 2.2em;
+    color:black;
+    text-align: center;}
+
+.subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9em;
+    margin-top: -3em;
+    color:black;}
+
+.author{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.8em;
+    
+    color:black;}
+
+
+
+/* --------------- Body ---------------- */
+
+
+h2 {
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'shadows into light',serif;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;}
+
+.intro-quote {
+    text-align: justify;
+    font-size: 1.7em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    color:#75B0B8;
+    font-family:'shadows into light',serif;}
+    
+h3 { text-align: justify;
+    letter-spacing: 2px;
+    font-family:'shadows into light',serif; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4em;
+    margin-bottom: 2em;
+    }
+
+
+p { font-size: 1.3em;
+margin-top: 1em;}
+
+.title {color:#fff;
+        text-align: center;
+        font-size: 2.3em; }
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section1{
+    margin-top: 50em;
+    background: black;
+    text-align: justify;
+    }
+
+.border1 {
+    width:100%;
+    }
+
+.border2 {width:100%;}
+
+.tableborder {width:100%;}
+
+.section2 {
+    background:#9AC1D0;
+    text-align: justify;
+    margin-top: -8em;
+    }
+
+.section3 {
+    background: black;
+    text-align: justify;
+    margin-top: -8em;}
+
+.section4 {
+    background:#9AC1D0;
+    text-align: justify;
+    margin-top: -8em;
+    }
+
+.section5 {
+    background: black;
+    margin-top: -8em;
+    text-align: justify;}
+
+.section6 {
+    background:#9AC1D0;
+    text-align: justify;
+    margin-top: -8em;}
+
+.section7 {
+    background: black;
+    text-align: justify;}
+
+.startquote {
+    width:5em;
+    margin-top: 2em;
+    margin-left: 17em;
+    margin-bottom: -5em;}
+
+.endquote {
+    width:5em;
+    margin-left: 56em;
+    margin-top: -8em;
+    margin-bottom: 5em;}
+
+
+blockquote{
+    font-family: 'shadows into light', serif;
+    text-align: justify;
+    max-width: 550px;
+    font-size: 1.7em;
+    color:black;
+    font-weight:600;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5em;}
+
+.cite {
+    font-family: 'coming soon', cursive;
+    color:#0D1629;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+    margin-left:18em;
+    margin-top: -4em;
+}
+.last-quote{
+    margin-top: -2em;
+text-align: center;cd}
+
+.open-quote {
+    width:3em;
+    margin-left: 25.5em;
+    margin-top: 5em;
+    margin-bottom: 1em;}
+
+.close-quote {
+    width:3em;
+    margin-left: 52em;
+    position: absolute;
+    margin-top: -4.5em;}
+
+
+/* --------------- TABLE 1 ---------------- */
+
+table.bird-table {
+    margin-top: 3em;
+    margin-bottom:3em;
+    margin-left: 4em;
+    font-family:'shadows into light',serif;}
+
+div.bird-table td {
+    
+    border-bottom: 0px; solid black;}
+
+
+th {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid white;
+    font-weight: 500;
+    font-size: 1.1em;}
+
+td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;}
+
+tr:hover {
+    
+    background-color: white;
+    color:#9AC1D0;     
+}
+
+.table-h3 {
+    text-align: center;
+    margin: 0 auto;}
+/* --------------- TABLE 2 ---------------- */
+
+table.fast-facts {
+    
+   
+    font-family: 'shadows into light', sans-serif;
+    align-content: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+    color:#9AC1D0;}
+
+table.fast-facts { margin: 60px 0;}
+
+table.fast-facts td {border-bottom: 1px solid white;}
+
+table caption {
+    
+    padding: 35px;
+    color:#9AC1D0;
+    font-family: 'shadows into light',sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 200;}
+
+
+th {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid white;
+    font-weight: 500;
+    font-size: 1.1em;}
+
+td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;}
+
+tr:hover {
+    
+    background-color: white;
+    color:black;     
+}
+
+
+
+.table {
+    margin-left:auto; 
+    margin-right: auto; 
+    max-width: 600px;}
+
+
+/*--------------------MAP---------------------*/
+
+    #map {
+        height: 500px;
+        max-width: 700px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 4em;
+        margin-bottom: 2em;
+      }
+
+/*--------------------FOOTER---------------------*/
+
+.copyright {
+    margin-top: -5em;
+    text-align: center;
+    font-family: 'shadows into light', sans-serif;
+    font-size: 0.8em;
+    background: black;
+    width:100%;}
+
+/*--------------------MEDIA---------------------*/
+
+/*---@media (max-width: 70em) {
+.location {
+display: none;
+}
+}/
+
+
+/*-----TABLET-------*/
+@media (max-width: 50em) {
+     
+p, h1, h2, h3, a, table
+{
+        width: 95%;}
+    
+
+    .bg {height:400px;}
+
+/*--------SMARTPHONE--------*/
+@media (max-width: 31em) {
+
+    p, h1, h2, h3, blockquote, a, table
+{
+    width: 90%;}
+    
+    .section1{
+        margin-top: 25em;}
+
+        .section2{
+            margin-top:-6em;}
+    
+     .section3{
+            margin-top:-6.5em;}
+    
+     .section3{
+            margin-top:-6.5em;}
+    
+    p{ font-size: 1.2em;}
+
+    
+    
